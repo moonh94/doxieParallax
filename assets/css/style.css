@@ -142,6 +142,7 @@ nav.black .nav-link:hover{
 
 
 .headingMain {
+    position: relative;
     display: block;
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 5em;
@@ -524,6 +525,14 @@ hr {
 @media screen and (min-width: 768px) {
     body{
         width: 100%;
+    }
+
+    .heading {
+        height: 100vh;
+        position: relative;
+        padding-top: 5% 3%;
+        
+    
     }
 
   .logo {
