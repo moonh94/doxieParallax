@@ -1,0 +1,528 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family:"Montserrat Alternates", sans-serif;
+    color: black;
+    text-align: center;
+    overflow-x: hidden;
+    width: 100%;
+}
+.logoHeader {
+    position: fixed;
+    float:left;
+    width: 15rem;
+    height:auto;
+    top: -4rem;
+    left: 0;
+    
+}
+
+.navbar{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 8rem;
+    padding: 1.5rem 6rem;
+    box-sizing: border-box;
+    transition: .5s;
+    z-index: 5;
+    opacity: 1;
+    background-color: #ba7c4a;
+    
+}
+
+nav.black{
+    background: rgba(186, 125, 74, 0.9);
+    height:7rem;
+    padding: 1rem 6rem;
+  }
+
+.navbar-nav{
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-link {
+    list-style: none;
+    margin-top: 1rem;
+    line-height: none;
+    font-size: 1.2em;
+    color: white;
+    padding: 0rem 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 1s;
+    text-shadow: 0 0 10px #000;
+  }
+
+  
+nav.black .nav-link{
+    color: #fff;
+    line-height: 20px;
+  }
+
+nav.black .nav-link:hover{
+    color:black;
+    transition: 1s ease;
+}
+
+.nav-link:active,
+.nav-link:hover{
+  color:black;
+  transition: 1s ease;
+}
+
+.menuIcon {
+    position: absolute;
+    left: 12rem;
+    width: 100%;
+    justify-content: right;
+    box-sizing: border-box;
+    cursor: pointer;
+    padding: 1.5rem 2.4rem;
+    color: #fff;
+    display: none;
+}
+.parallax1 {
+    background: 
+        linear-gradient(
+            rgba(248, 245, 245, 0.3), 
+            rgba(248, 245, 245, .3)), 
+        url("../img/group.jpg");
+    height: 80vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxBody {
+    min-height: 300px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    background-image: url("../img/group2Edit.jpg");
+
+}
+
+.parallax3{
+    background-image: url("../img/dachshund-puppies2.jpg");
+}
+
+.parallax4 {
+    background-image: url("../img/dachshund-price-range-cost-1.jpg");
+   
+}
+
+.heading {
+    position: relative;
+    height:80vh;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    margin:5%;
+    padding:10% 3%;
+
+}
+
+
+.headingMain {
+    display: block;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 5em;
+    font-weight: 250;
+    letter-spacing: 2.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    animation-name: moveInLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+}
+
+.headingSub {
+    display: block;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 15rem;
+    letter-spacing: .5rem;
+    text-transform: uppercase;
+    text-align:center;
+    padding-top: 2%;
+    animation-name: pauseWelcome;
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+}
+
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+
+    80% {
+        transform: translateX(1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes pauseWelcome{
+    0% {
+
+        opacity: 0;
+    }
+    25% {
+        opacity: .25;
+    }
+    50% {
+        opacity: .5;
+    }
+    75% {
+        opacity: .75;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.section {
+    height: auto;
+    margin-bottom: 5rem;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    font-weight: 300;
+    letter-spacing: .5rem;
+    padding: 3rem;
+    padding-bottom: 1rem;
+}
+
+.about {
+    margin: 0; 
+    padding: 7%
+    text-align: left;
+    
+}
+
+
+
+footer {
+    display: block;
+    padding-bottom: 5rem;
+    margin: 0;
+    background: #1a1713;
+    height: auto;
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+
+}
+.footerLogo {
+    padding-bottom: 0;
+}
+.logoFooter {
+    width: 20rem;
+    height: auto;
+    margin: 0;
+}
+
+.footerLinks {
+    display: inline-block;
+}
+
+.footerList {
+    list-style: none;
+}
+
+.footerItem {
+    display: inline-block;
+}
+
+.footerLink {
+    text-decoration: none;
+    text-transform: uppercase;
+   
+    
+}
+
+.footerLink:link,
+.footerLink:visited {
+    color:white;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: .8s;
+    margin-right: 2rem;
+}
+
+.footerLink:hover,
+.footerLink:active {
+    color: #ba7c4a;
+    text-shadow: 0 0 10px #000;
+
+}
+
+.copyright {
+    color: white;
+    font-size: 1rem;
+}
+
+hr {
+    background: white;
+    margin: 1rem 3.5rem 1rem 3.5rem;
+}
+.emptyCol1 {
+    margin: 2rem;
+}
+.emptyCol2 {
+    padding: 0;
+    margin:0;
+}
+
+.card {
+    position: relative;
+    height: 35rem;
+    margin: 2rem 1rem;
+}
+.card__side {
+    height: 35rem;
+    transition: all 1s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+    overflow: hidden;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
+.card__side--front {
+      background-color: rgb(250, 247, 239); 
+    }
+.card__side--back {
+      transform: rotateY(180deg);
+      background-size: cover;
+    background-repeat: no-repeat; 
+}
+.card__side--back-1 {
+        background-image:url(../img/donte3.jpg);
+     
+     }
+.card__side--back-2 {
+        background-image:url(../img/duncan2.jpg);
+}
+.card__side--back-3 {
+        background-image:url(../img/beau2.jpg);
+}
+.card__side--back-4 {
+    background-image:url(../img/honey2.jpg);
+}
+.card__side--back-5 {
+    background-image:url(../img/bella3.jpg);
+}
+.card__side--back-6 {
+    background-image:url(../img/pearl2cropped.jpg);
+}
+.card__side--back-7 {
+    background-image:url(../img/hope2.jpg);
+}
+
+.card:hover .card__side--front {
+    transform: rotateY(-180deg); 
+}
+.card:hover .card__side--back {
+    transform: rotateY(0); 
+}
+.card__picture {
+    background-size: contain;
+    height: 20rem;
+    background-blend-mode: screen;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 70%, 0 90%);
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0 90%);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px; 
+    background-repeat: no-repeat;
+      background-size: cover;
+ }
+.card__picture--1 {
+      background-image: url(../img/donte2.jpg);
+     
+    }
+.card__picture--2{
+          background-image: url(../img/duncan.jpg);
+       
+      }
+.card__picture--3{
+          background-image: url(../img/beau1.jpg);
+       
+      }
+.card__picture--4{
+          background-image: url(../img/honey.jpg);
+       
+      }
+.card__picture--5{
+          background-image: url(../img/bella.jpg);
+       
+      }     
+.card__picture--6{
+          background-image: url(../img/pearl.jpg);
+       
+      }
+.card__picture--7{
+          background-image: url(../img/hope.jpg);
+       
+      }
+
+
+.card__heading {
+    font-size: 1.5rem;
+    font-weight: 400rem;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    /* border-bottom: 1px solid #ba7c4a;
+    padding-bottom: .5rem; */
+}
+
+.card__details {
+    font-size: 1rem;
+}
+/* .card__details ul li:not(:last-child) {
+    border-bottom: 1px solid #ba7c4a;
+    padding-bottom: .2rem;
+
+
+} */
+
+/* .list1 {
+    font-weight: 600;
+} */
+
+.contactForm {
+    display: inline-block;
+    position: relative;
+    width:75%;
+    height:auto;
+    padding: 0;
+    margin: 2rem;
+    text-align: left;
+}
+
+.btn {
+    position: relative;
+    display: block;
+    text-align: right;
+}
+.button {
+    background-color: rgb(139, 196, 231);
+    border:none;
+    border-radius: .5rem;
+    width: 5rem;
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: 400;
+    padding: .2rem 1rem;
+    display: inline-block;
+    position: relative;
+    margin-bottom: .5rem;
+}
+.button:hover,
+.button:active {
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10rem;
+    transition: all .5s;
+    position: relative;
+    font-size: .8rem;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+    .button:hover::after {
+      transform: scaleX(1.4) scaleY(1.6);
+      opacity: 0; }
+  
+  .button:active, .button:focus {
+    outline: none;
+    transform: translateY(-1px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
+
+@media screen and (max-width: 767px) {
+    body{
+        width: 100%;
+    }
+
+.parallaxBody {
+    background-attachment: inherit;
+}
+
+  .logo {
+      position: fixed;
+      top: 0;
+      margin-top: 1.6rem;
+  }
+
+  .navbar-nav {
+      max-height: 0px;
+      background: #ba7c4a;
+  }
+ 
+  .showing {
+      max-height: 20em;
+  }
+
+.nav-link {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 2.4rem 0;
+      text-align: center;
+  }
+  .menuIcon {
+      display: block;
+  }
+
+  .heading {
+      position: relative;
+  }
+  .headingMain {
+      font-size: 2em;
+      font-weight: 500;
+      letter-spacing: auto;
+      width: 100%;
+  }
+  .headingSub {
+      font-size: .8em;
+      font-weight: 300;
+  }
+}
+@media screen and (min-width: 768px) {
+    body{
+        width: 100%;
+    }
+
+  .logo {
+      position: fixed;
+  }
+}
