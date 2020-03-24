@@ -111,19 +111,23 @@ nav.black .nav-link:hover{
     background-size: cover;
 }
 
-.parallax2 {
+.parallax3 {
     background-image: url("../img/group2Edit.jpg");
+}
+.parallax2 {
+    background-image: url("../img/denverSkyline.jpg");
 
 }
 
-.parallax3{
+.parallax4{
     background-image: url("../img/dachshund-puppies2.jpg");
 }
 
-.parallax4 {
-    background-image: url("../img/dachshund-price-range-cost-1.jpg");
+.parallax5 {
+    background-image: url("../img/group.jpg");
    
 }
+
 
 .heading {
     position: relative;
