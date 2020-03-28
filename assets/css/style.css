@@ -223,8 +223,8 @@ nav.black .nav-link:hover{
 
 .about {
     margin: 0; 
-    padding: 7%
-    text-align: left;
+    padding: 7%;
+    text-align:left;
     
 }
 
@@ -292,7 +292,7 @@ footer {
     font-size: 1rem;
 }
 
-hr {
+.hrFooter {
     background: white;
     margin: 1rem 3.5rem 1rem 3.5rem;
 }
@@ -420,16 +420,50 @@ hr {
 /* .list1 {
     font-weight: 600;
 } */
+.contact--1 {
+    
+    
+}
+
+.hrContact1 {
+    margin: 5% 3% 4% 3%;
+    
+
+}
+.hrContact2 {
+    margin-top: 4% 3% 5% 3%;
+}
+
+.contactInfo {
+    padding: 5% 10%;
+    display: inline-block;
+    position: relative;
+    height: auto;
+    text-align: left;
+    
+}
+
+.contactHeading {
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.contactTextHeading {
+    font-size: 1rem;
+}
 
 .contactForm {
     display: inline-block;
     position: relative;
     width:75%;
     height:auto;
-    padding: 0;
-    margin: 2rem;
     text-align: left;
 }
+::-webkit-input-placeholder {
+    font-style: italic;
+ }
 
 .btn {
     position: relative;
