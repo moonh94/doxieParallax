@@ -14,6 +14,15 @@ function navSearch() {
   });
 }
 
+function myFunction() {
+  var x = document.getElementById("navbarSupportedContent");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
 $(document).on('click', 'a[href^="#"]', function (e) {
   // target element id
   var id = $(this).attr('href');

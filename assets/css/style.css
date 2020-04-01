@@ -4,6 +4,8 @@
 }
 
 body {
+    position: relative;
+    padding: 0;
     margin: 0;
     font-family:"Montserrat Alternates", sans-serif;
     color: black;
@@ -79,12 +81,10 @@ nav.black .nav-link:hover{
   transition: 1s ease;
 }
 
-.menuIcon {
+.icon {
     position: absolute;
     left: 12rem;
     width: 100%;
-    justify-content: right;
-    box-sizing: border-box;
     cursor: pointer;
     padding: 1.5rem 2.4rem;
     color: #fff;
@@ -435,6 +435,7 @@ footer {
 }
 
 .contactInfo {
+    margin-top: 5%;
     padding: 5% 10%;
     display: inline-block;
     position: relative;
@@ -511,50 +512,63 @@ footer {
 @media screen and (max-width: 767px) {
     body{
         width: 100%;
+        overflow-x: hidden;
     }
 
 .parallaxBody {
     background-attachment: inherit;
+    width: 105%;
+  
 }
 
-  .logo {
-      position: fixed;
-      top: 0;
-      margin-top: 1.6rem;
+  
+  .navbar {
+    overflow: hidden;
+  }
+  
+  .navbar #navbarSupportedContent {
+    display: none;
+  }
+  
+  .navbar a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .icon {
+    color: white;
+    display: block;
   }
 
-  .navbar-nav {
-      max-height: 0px;
-      background: #ba7c4a;
-  }
- 
-  .showing {
-      max-height: 20em;
+  .active {
+    background-color: #4CAF50;
+    color: white;
   }
 
-.nav-link {
-      box-sizing: border-box;
-      width: 100%;
-      padding: 2.4rem 0;
-      text-align: center;
-  }
-  .menuIcon {
-      display: block;
-  }
+
 
   .heading {
       position: relative;
+      padding-top: 75%;
   }
   .headingMain {
-      font-size: 2em;
+      font-size: 18px;
       font-weight: 500;
-      letter-spacing: auto;
+      letter-spacing: 16px;
       width: 100%;
   }
   .headingSub {
-      font-size: .8em;
-      font-weight: 300;
+      font-size: 12px;
+      font-weight: 400;
+      letter-spacing: 5px;
   }
+}
+.section {
+    padding: 0;
+    margin: 0;
 }
 @media screen and (min-width: 768px) {
     body{
@@ -569,7 +583,5 @@ footer {
     
     }
 
-  .logo {
-      position: fixed;
-  }
+
 }
