@@ -23,6 +23,7 @@ body {
     
 }
 
+
 .navbar{
     position: fixed;
     top:0;
@@ -81,15 +82,12 @@ nav.black .nav-link:hover{
   transition: 1s ease;
 }
 
-.icon {
-    position: absolute;
-    left: 12rem;
-    width: 100%;
-    cursor: pointer;
-    padding: 1.5rem 2.4rem;
-    color: #fff;
+.sidepanel, 
+.openbtn{
     display: none;
 }
+
+
 .parallax1 {
     background: 
         linear-gradient(
@@ -410,20 +408,6 @@ footer {
 .card__details {
     font-size: 1rem;
 }
-/* .card__details ul li:not(:last-child) {
-    border-bottom: 1px solid #ba7c4a;
-    padding-bottom: .2rem;
-
-
-} */
-
-/* .list1 {
-    font-weight: 600;
-} */
-.contact--1 {
-    
-    
-}
 
 .hrContact1 {
     margin: 5% 3% 4% 3%;
@@ -509,8 +493,9 @@ footer {
     transform: translateY(-1px);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
 
-@media screen and (max-width: 767px) {
-    body{
+@media screen and (max-width: 768px) {
+
+body{
         width: 100%;
         overflow-x: hidden;
     }
@@ -521,16 +506,16 @@ footer {
   
 }
 
-  
-  .navbar {
+.navbar {
     overflow: hidden;
+    padding-top: 20px;
   }
   
-  .navbar #navbarSupportedContent {
+.navbar #navbarSupportedContent {
     display: none;
   }
   
-  .navbar a {
+.navbar a {
     color: white;
     padding: 14px 16px;
     text-decoration: none;
@@ -538,21 +523,70 @@ footer {
     display: block;
   }
   
-  .icon {
+.sidepanel {
+    display: block;
+    height: auto; 
+     /* 0 width - change this with JavaScript */
+    position: fixed; 
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:rgb(186, 124, 74);
+    overflow-x: hidden; 
+    padding-top:50px;
+    transition: 0.5s;
+  }
+  
+  /* The sidepanel links */
+.sidepanel a {
+    padding: 6px 6px 6px 10px;
+    text-decoration: none;
+    font-size: 25px;
     color: white;
     display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+.sidepanel a:hover {
+    color: black;
+  }
+  
+  /* Position and style the close button (top right corner) */
+.sidepanel .closebtn {
+    position: relative;
+    top: 0;
+    font-size: 36px;
+    margin-left: 150px;
+  }
+  
+  /* Style the button that is used to open the sidepanel */
+.openbtn {
+    display: block;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #ba7c4a;
+    color: white;
+    margin: 0 0 0 15px;
+    padding:0;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: none;
+    border:none
   }
 
+
   .active {
-    background-color: #4CAF50;
-    color: white;
+    color: black;
   }
 
 
 
   .heading {
       position: relative;
-      padding-top: 75%;
+      padding-top: 60%;
   }
   .headingMain {
       font-size: 18px;
@@ -565,23 +599,18 @@ footer {
       font-weight: 400;
       letter-spacing: 5px;
   }
-}
+
 .section {
     padding: 0;
     margin: 0;
+    font-size: 16px;
 }
-@media screen and (min-width: 768px) {
-    body{
-        width: 100%;
-    }
 
-    .heading {
-        height: 100vh;
-        position: relative;
-        padding-top: 5% 3%;
-        
-    
-    }
+.title {
+    text-align: center;
+    font-size: 20px;
+}
 
-
+.contactInfo {
+    text-align: center;
 }

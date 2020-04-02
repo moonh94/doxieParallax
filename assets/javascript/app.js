@@ -14,13 +14,11 @@ function navSearch() {
   });
 }
 
-function myFunction() {
-  var x = document.getElementById("navbarSupportedContent");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
+function smallNavSearch() {
+  $(".nav-item-small").on("click", function () {
+    $(this).toggleClass("active");
+
+  });
 }
 
 $(document).on('click', 'a[href^="#"]', function (e) {
@@ -67,3 +65,19 @@ function resize_parallax(div_id,img_w,img_h) {
 }
 
 
+
+function openNav() {
+  document.getElementById("mySidepanel").style.width = "100%";
+}
+
+/* Set the width of the sidebar to 0 (hide it) */
+function closeNav() {
+  document.getElementById("mySidepanel").style.width = "0";
+}
+
+function navSearch() {
+  $(".nav-item").on("click", function () {
+    $(this).toggleClass("active");
+
+  });
+}
