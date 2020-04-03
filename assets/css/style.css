@@ -535,8 +535,7 @@ body{
     padding-top:50px;
     transition: 0.5s;
   }
-  
-  /* The sidepanel links */
+
 .sidepanel a {
     padding: 6px 6px 6px 10px;
     text-decoration: none;
@@ -545,18 +544,18 @@ body{
     display: block;
     transition: 0.3s;
   }
-  
-  /* When you mouse over the navigation links, change their color */
+
 .sidepanel a:hover {
     color: black;
   }
   
   /* Position and style the close button (top right corner) */
-.sidepanel .closebtn {
+.closebtn {
     position: relative;
-    top: 0;
-    font-size: 36px;
-    margin-left: 150px;
+    top: 40;
+    font-size: 50px;
+    font-weight: 500;
+    margin-left: 250px;
   }
   
   /* Style the button that is used to open the sidepanel */
@@ -564,7 +563,7 @@ body{
     display: block;
     font-size: 20px;
     cursor: pointer;
-    background-color: #ba7c4a;
+    background-color: rgb(186, 124, 74, 0);
     color: white;
     right: -50px;
     margin: 0 0 0 10px;
@@ -577,6 +576,9 @@ body{
     border:none
   }
 
+  .openbtn:active {
+      color: white;
+  }
 
   .active {
     color: black;
