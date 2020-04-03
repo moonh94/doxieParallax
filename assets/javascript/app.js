@@ -68,6 +68,7 @@ function resize_parallax(div_id,img_w,img_h) {
 
 function openNav() {
   document.getElementById("mySidepanel").style.width = "100%";
+  document.getElementById("mySidepanel").style.display = "block";
 }
 
 /* Set the width of the sidebar to 0 (hide it) */
@@ -75,9 +76,4 @@ function closeNav() {
   document.getElementById("mySidepanel").style.width = "0";
 }
 
-function navSearch() {
-  $(".nav-item").on("click", function () {
-    $(this).toggleClass("active");
 
-  });
-}

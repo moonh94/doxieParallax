@@ -13,6 +13,7 @@ body {
     overflow-x: hidden;
     width: 100%;
 }
+
 .logoHeader {
     position: fixed;
     float:left;
@@ -524,9 +525,7 @@ body{
   }
   
 .sidepanel {
-    display: block;
     height: auto; 
-     /* 0 width - change this with JavaScript */
     position: fixed; 
     z-index: 1;
     top: 0;
@@ -567,8 +566,9 @@ body{
     cursor: pointer;
     background-color: #ba7c4a;
     color: white;
-    margin: 0 0 0 15px;
-    padding:0;
+    right: -50px;
+    margin: 0 0 0 10px;
+    padding: 0;
     border: none;
   }
   
