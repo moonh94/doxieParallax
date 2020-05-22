@@ -76,4 +76,6 @@ function closeNav() {
   document.getElementById("mySidepanel").style.width = "0";
 }
 
-
+$('.carousel').carousel({
+  interval: 300
+})

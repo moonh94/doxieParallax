@@ -17,10 +17,10 @@ body {
 .logoHeader {
     position: fixed;
     float:left;
-    width: 15rem;
+    width: 6rem;
     height:auto;
-    top: -4rem;
-    left: 0;
+    top: 1rem;
+    left: 3rem;
     
 }
 
@@ -30,7 +30,7 @@ body {
     top:0;
     left: 0;
     width: 100%;
-    height: 8rem;
+    height: 5.5rem;
     padding: 1.5rem 6rem;
     box-sizing: border-box;
     transition: .5s;
@@ -42,7 +42,7 @@ body {
 
 nav.black{
     background: rgba(186, 125, 74, 0.9);
-    height:7rem;
+    height:4.5rem;
     padding: 1rem 6rem;
   }
 
@@ -93,36 +93,38 @@ nav.black .nav-link:hover{
         linear-gradient(
             rgba(248, 245, 245, 0.3), 
             rgba(248, 245, 245, .3)), 
-        url("../img/group.jpg");
+        url("../img/groupBkyd4Edit5.jpg");
     height: 80vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    top: -100;
 }
 
 .parallaxBody {
-    min-height: 300px; 
+    min-height: 325px; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.parallax3 {
-    background-image: url("../img/group2Edit.jpg");
-}
 .parallax2 {
-    background-image: url("../img/denverSkyline.jpg");
+    background-image: url("../img/group.jpg");
 
 }
+.parallax3 {
+    background-image: url("../img/beauBella.jpg");
+}
+
 
 .parallax4{
-    background-image: url("../img/dachshund-puppies2.jpg");
+    background-image: url("../img/groupBkyd3.jpg");
 }
 
 .parallax5 {
-    background-image: url("../img/group.jpg");
+    background-image: url("../img/groupLR.jpg");
    
 }
 
@@ -143,7 +145,7 @@ nav.black .nav-link:hover{
     position: relative;
     display: block;
     font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 5em;
+    font-size: 4em;
     font-weight: 250;
     letter-spacing: 2.5rem;
     text-align: center;
@@ -209,6 +211,9 @@ nav.black .nav-link:hover{
     height: auto;
     margin-bottom: 5rem;
 }
+ #aboutUs {
+     height: 600px;
+ }
 
 .title {
     text-transform: uppercase;
@@ -225,7 +230,17 @@ nav.black .nav-link:hover{
     text-align:left;
     
 }
+.gallery {
+    margin: 0; 
+    padding: 7%;
+    text-align:left;
+    
+}
 
+.d-block {
+    max-height: 500px;
+    overflow: hidden;
+}
 
 
 footer {
@@ -243,9 +258,9 @@ footer {
     padding-bottom: 0;
 }
 .logoFooter {
-    width: 20rem;
+    width: 10rem;
     height: auto;
-    margin: 0;
+    margin: 5rem;
 }
 
 .footerLinks {
@@ -370,27 +385,27 @@ footer {
      
     }
 .card__picture--2{
-          background-image: url(../img/duncan.jpg);
+          background-image: url(../img/duncan4.jpg);
        
       }
 .card__picture--3{
-          background-image: url(../img/beau1.jpg);
+          background-image: url(../img/beauBT1Edit.jpg);
        
       }
 .card__picture--4{
-          background-image: url(../img/honey.jpg);
+          background-image: url(../img/honey4.jpg);
        
       }
 .card__picture--5{
-          background-image: url(../img/bella.jpg);
+          background-image: url(../img/bella4Edit.jpg);
        
       }     
 .card__picture--6{
-          background-image: url(../img/pearl.jpg);
+          background-image: url(../img/pearl5Edit.jpg);
        
       }
 .card__picture--7{
-          background-image: url(../img/hope3.jpg);
+          background-image: url(../img/hope5.jpg);
        
       }
 
@@ -564,6 +579,7 @@ body{
     cursor: pointer;
     background-color: rgb(186, 124, 74, 0);
     color: white;
+    top: 3rem;
     right: -50px;
     margin: 0 0 0 10px;
     padding: 0;
@@ -583,7 +599,11 @@ body{
     color: black;
   }
 
-
+.logoHeader {
+    width: 5rem;
+    height: auto;
+    top: 2.5rem;
+}
 
   .heading {
       position: relative;
