@@ -361,7 +361,7 @@ footer {
     }
 
 .card__side {
-        height: 35rem;
+        height: 36rem;
         transition: all 1s ease;
         position: absolute;
         top: 0;
@@ -460,12 +460,16 @@ footer {
     }
     
 .card__details {
-        font-size: 15px;
+        font-size: 14px;
         text-align:center;
         padding-right:1%;
         padding-left: 1%;
+        padding-bottom: 5px;
     }
     
+.card__details.li {
+    padding-bottom: 5px;
+}
 li:not(:last-child) {
         padding-bottom: 5px;
     }
