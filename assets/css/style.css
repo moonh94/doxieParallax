@@ -209,10 +209,16 @@ nav.black .nav-link:hover{
 
 .section {
     height: auto;
-    margin-bottom: 5rem;
+    padding-bottom: 3rem;
+    background:linear-gradient(
+        to right bottom,
+        rgb(250, 243, 224),
+    rgb(243, 237, 231));
+
 }
  #aboutUs {
      height: 600px;
+     font-size: 18px;
  }
 
 .title {
@@ -220,27 +226,46 @@ nav.black .nav-link:hover{
     font-size: 2.3rem;
     font-weight: 300;
     letter-spacing: .5rem;
-    padding: 3rem;
-    padding-bottom: 1rem;
+    padding-top: 3rem;
+}
+
+#aboutDoxies {
+    font-size: 18px;
+}
+.characteristicsList {
+    text-indent: 50px;
 }
 
 .about {
     margin: 0; 
-    padding: 7%;
+    padding: 3% 5% 5% 5%;
     text-align:left;
     
 }
+#aboutUs {
+    height: auto;
+}
 .gallery {
     margin: 0; 
-    padding: 7%;
+    padding: 7% 1% 5% 5%;
     text-align:left;
     
 }
 
-.d-block {
+.aboutUs {
+    margin: 0; 
+    padding: 10% 3% 3% 1%;
+    text-align:left;
+    
+}
+.info {
+    padding-top: 0;
+}
+
+/* .d-block {
     max-height: 500px;
     overflow: hidden;
-}
+} */
 
 
 footer {
@@ -260,7 +285,11 @@ footer {
 .logoFooter {
     width: 10rem;
     height: auto;
-    margin: 5rem;
+    margin: 5rem 5rem 1rem 5rem;
+}
+.cashMethod {
+    color: white;
+    font-size: 1rem;
 }
 
 .footerLinks {
@@ -321,6 +350,7 @@ footer {
     position: relative;
     height: 35rem;
     margin: 2rem 1rem;
+    cursor: pointer;
 }
 .card__side {
     height: 35rem;
@@ -332,12 +362,14 @@ footer {
     backface-visibility: hidden;
     overflow: hidden;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
+
 .card__side--front {
       background-color: rgb(250, 247, 239); 
     }
+    
 .card__side--back {
-      transform: rotateY(180deg);
-      background-size: cover;
+    transform: rotateY(180deg);
+    background-size: cover;
     background-repeat: no-repeat; 
 }
 .card__side--back-1 {
@@ -369,6 +401,7 @@ footer {
 .card:hover .card__side--back {
     transform: rotateY(0); 
 }
+
 .card__picture {
     background-size: contain;
     height: 20rem;
@@ -411,7 +444,7 @@ footer {
 
 
 .card__heading {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 400rem;
     text-transform: uppercase;
     color: black;
@@ -421,7 +454,14 @@ footer {
 }
 
 .card__details {
-    font-size: 1rem;
+    font-size: 15px;
+    text-align:center;
+    padding-right:1%;
+    padding-left: 1%;
+}
+
+li:not(:last-child) {
+    padding-bottom: 5px;
 }
 
 .hrContact1 {
@@ -516,10 +556,13 @@ body{
     }
 
 .parallaxBody {
-    background-attachment: inherit;
-    width: 105%;
+    /* background-attachment: inherit;
+    width: 105%; */
+    height: 10vh;
+
   
 }
+
 
 .navbar {
     overflow: hidden;
@@ -534,8 +577,11 @@ body{
     color: white;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 8px;
     display: block;
+    text-transform: uppercase;
+    transition: 1s;
+    text-shadow: 0 0 10px #000;
   }
   
 .sidepanel {
@@ -553,7 +599,7 @@ body{
 .sidepanel a {
     padding: 6px 6px 6px 10px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     color: white;
     display: block;
     transition: 0.3s;
@@ -602,10 +648,10 @@ body{
 .logoHeader {
     width: 5rem;
     height: auto;
-    top: 2.5rem;
+    top: 1.2rem;
 }
 
-  .heading {
+.heading {
       position: relative;
       padding-top: 60%;
   }
@@ -624,17 +670,29 @@ body{
 .section {
     padding: 0;
     margin: 0;
+    height: auto;
 }
 section {
     font-size: 14px;
     padding: 0;
     margin: 0;
+    height: auto;
+}
+#aboutUs {
+    height: auto;
+    
+}
+
+.about {
+    position: relative;
+    height: auto;
 }
 
 .title {
     text-align: center;
     font-size: 20px;
     font-weight: 500;
+
 }
 
 .contactInfo {
