@@ -20,14 +20,14 @@ function smallNavSearch() {
 
   });
 }
-function flipCard() {
-  $(".card").on("click", function () {
-    $(this).toggleClass("flipped")
-  })
-}
-// $('.flipBtn').click(function(){
-//   $(this).toggleClass('flipped');
-// });
+// function flipCard() {
+//   $(".card").on("click", function () {
+//     $(this).toggleClass("flipped")
+//   })
+// }
+$('.card').click(function(){
+  $(this).toggleClass('flipped');
+});
 
 
 $(document).on('click', 'a[href^="#"]', function (e) {
