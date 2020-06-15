@@ -361,7 +361,7 @@ footer {
 }
 .card {
         position: relative;
-        height: 35rem;
+        height: 36rem;
         margin: 2rem 1rem;
         cursor: pointer;
         transition: 0.4s;
@@ -390,7 +390,7 @@ footer {
         box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); 
     }
  
-        
+    
 .card__side--back {
         transform: rotateY(180deg);
         -webkit-transform:rotateY(180deg);
