@@ -375,10 +375,6 @@ footer {
     }
 
 .card__side {
-        transform-style: preserve-3d;
-        -webkit-transform-style: preserve-3d;
-        -moz-transform-style: preserve-3d;
-        -o-transform-style: preserve-3d;
         height: 36rem;
         transition: all 1s ease;
         -webkit-transition: all 1s ease; 
@@ -398,14 +394,14 @@ footer {
           background-color: rgb(250, 247, 239); 
         }
         
-/* .card__side--back {
+.card__side--back {
         transform: rotateY(180deg);
         -webkit-transform:rotateY(180deg);
         -moz-transform: rotateY(180deg);
         -o-transform: rotateY(180deg);
         background-size: cover;
         background-repeat: no-repeat; 
-    } */
+    }
 .card__side--back-1 {
         background-image:url(../img/donte3.jpg);
         opacity: .99;
