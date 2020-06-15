@@ -389,10 +389,7 @@ footer {
         backface-visibility: hidden;
         -webkit-backface-visibility: hidden;
     }
-    
-/* .card__side--front {
-          background-color: rgb(250, 247, 239); 
-        } */
+ 
         
 .card__side--back {
         z-index: 3;
