@@ -390,9 +390,9 @@ footer {
         -webkit-backface-visibility: hidden;
     }
     
-.card__side--front {
+/* .card__side--front {
           background-color: rgb(250, 247, 239); 
-        }
+        } */
         
 .card__side--back {
         transform: rotateY(180deg);
