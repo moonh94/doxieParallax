@@ -7,29 +7,6 @@ $(window).on("scroll", function () {
   }
 })
 
-function navSearch() {
-  $(".nav-item").on("click", function () {
-    $(this).toggleClass("active");
-
-  });
-}
-
-function smallNavSearch() {
-  $(".nav-item-small").on("click", function () {
-    $(this).toggleClass("active");
-
-  });
-}
-// function flipCard() {
-//   $(".card").on("click", function () {
-//     $(this).toggleClass("flipped")
-//   })
-// }
-$('.card').click(function(){
-  $(this).toggleClass('flipped');
-});
-
-
 $(document).on('click', 'a[href^="#"]', function (e) {
   // target element id
   var id = $(this).attr('href');
@@ -57,11 +34,30 @@ $(document).ready(function() {
 $(window).on('resize', function(){
   resize_all_parallax();
 });
+
+$('.card').click(function(){
+  $(this).toggleClass('flipped');
+});
+
+
+function navSearch() {
+  $(".nav-item").on("click", function () {
+    $(this).toggleClass("active");
+
+  });
+}
+
+function smallNavSearch() {
+  $(".nav-item-small").on("click", function () {
+    $(this).toggleClass("active");
+
+  });
+}
 function resize_all_parallax() {
   var div_class = 'parallaxBody'; /* the ID of the div that you're resizing */
   var img_w = 1000; /* the width of your image, in pixels */
   var img_h = 864; /* the height of your image, in pixels */
-  resize_parallax(div_id,img_w,img_h);
+  resize_parallax(div_class,img_w,img_h);
 }
 function resize_parallax(div_id,img_w,img_h) {
   var div = $('#' + div_id);
