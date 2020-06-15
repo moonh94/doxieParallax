@@ -27,16 +27,17 @@ $(document).on('click', 'a[href^="#"]', function (e) {
   $('body, html').animate({ scrollTop: pos }, 950);
 });
 
+
+$('.card').click(function(){
+  $(this).toggleClass('flipped');
+});
+
 $(document).ready(function() {
   resize_all_parallax();
 });
 
 $(window).on('resize', function(){
   resize_all_parallax();
-});
-
-$('.card').click(function(){
-  $(this).toggleClass('flipped');
 });
 
 
