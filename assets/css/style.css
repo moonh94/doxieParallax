@@ -392,20 +392,32 @@ footer {
           background-color: rgb(250, 247, 239); 
         }
         
-.card__side--back {
+/* .card__side--back {
         transform: rotateY(180deg);
         -webkit-transform:rotateY(180deg);
         -moz-transform: rotateY(180deg);
         -o-transform: rotateY(180deg);
         background-size: cover;
         background-repeat: no-repeat; 
-    }
+    } */
 .card__side--back-1 {
             background-image:url(../img/donte3.jpg);
+            transform: rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+        background-size: cover;
+        background-repeat: no-repeat; 
          
          }
 .card__side--back-2 {
             background-image:url(../img/duncan2.jpg);
+            transform: rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+        background-size: cover;
+        background-repeat: no-repeat; 
     }
 .card__side--back-3 {
             background-image:url(../img/beau2.jpg);
