@@ -384,12 +384,14 @@ footer {
         top: 0;
         left: 0;
         width: 100%;
-        backface-visibility: hidden;
         overflow: hidden;
-        box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
+        box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); 
+        backface-visibility: hidden;
+    }
     
 .card__side--front {
           background-color: rgb(250, 247, 239); 
+          backface-visibility: hidden;
         }
         
 /* .card__side--back {
@@ -401,13 +403,14 @@ footer {
         background-repeat: no-repeat; 
     } */
 .card__side--back-1 {
-            background-image:url(../img/donte3.jpg);
-            transform: rotateY(180deg);
+        background-image:url(../img/donte3.jpg);
+        transform: rotateY(180deg);
         -webkit-transform:rotateY(180deg);
         -moz-transform: rotateY(180deg);
         -o-transform: rotateY(180deg);
         background-size: cover;
         background-repeat: no-repeat; 
+        backface-visibility: hidden;
          
          }
 .card__side--back-2 {
@@ -418,6 +421,7 @@ footer {
         -o-transform: rotateY(180deg);
         background-size: cover;
         background-repeat: no-repeat; 
+        backface-visibility: hidden;
     }
 .card__side--back-3 {
             background-image:url(../img/beau2.jpg);
