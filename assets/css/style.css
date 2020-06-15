@@ -395,6 +395,7 @@ footer {
         } */
         
 .card__side--back {
+        z-index: 3;
         transform: rotateY(180deg);
         -webkit-transform:rotateY(180deg);
         -moz-transform: rotateY(180deg);
@@ -404,26 +405,21 @@ footer {
     }
 .card__side--back-1 {
         background-image:url(../img/donte3.jpg);
-        opacity: .99;
         transform: rotateY(180deg);
         -webkit-transform:rotateY(180deg);
         -moz-transform: rotateY(180deg);
         -o-transform: rotateY(180deg);
         background-size: cover;
         background-repeat: no-repeat; 
-        backface-visibility: hidden;
-        -webkit-backface-visibility: hidden;
          
          }
 .card__side--back-2 {
-            background-image:url(../img/duncan2.jpg);
-            transform: rotateY(180deg);
+        background-image:url(../img/duncan2.jpg);
+        transform: rotateY(180deg);
         -webkit-transform:rotateY(180deg);
         -moz-transform: rotateY(180deg);
         -o-transform: rotateY(180deg);
         background-size: cover;
-        background-repeat: no-repeat; 
-        backface-visibility: hidden;
     }
 .card__side--back-3 {
             background-image:url(../img/beau2.jpg);
