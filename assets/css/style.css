@@ -398,6 +398,8 @@ footer {
         -o-transform: rotateY(180deg);
         background-size: cover;
         background-repeat: no-repeat; 
+        cursor: pointer;
+
     }
 .card__side--back-1 {
         background-image:url(../img/donte3.jpg);
@@ -497,7 +499,7 @@ li:not(:last-child) {
     transition: all 0.3s ease;
   }
 
-.card.flipped {
+.card .flipped {
     -webkit-transform: rotateY( 180deg );
     -moz-transform: rotateY( 180deg );
     -o-transform: rotateY( 180deg );
