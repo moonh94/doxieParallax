@@ -372,12 +372,20 @@ footer {
             -webkit-transform-style: preserve-3d;
             -moz-transform-style: preserve-3d;
             -o-transform-style: preserve-3d;
-        backface-visibility: hidden;
-        -webkit-backface-visibility: hidden;
+        /* backface-visibility: hidden;
+        -webkit-backface-visibility: hidden; */
     }
+
+.card.flipped {
+        -webkit-transform: rotateY( 180deg );
+        -moz-transform: rotateY( 180deg );
+        -o-transform: rotateY( 180deg );
+        transform: rotateY( 180deg );
+      }
 
 .card__side {
         height: 36rem;
+        margin: 0;
         transition: all 1s ease;
         -webkit-transition: all 1s ease; 
         -moz-transition:   all 1s ease;
@@ -392,6 +400,9 @@ footer {
  
     
 .card__side--back {
+    margin: 0;
+    padding: 0;
+    height:35rem;
         transform: rotateY(180deg);
         -webkit-transform:rotateY(180deg);
         -moz-transform: rotateY(180deg);
@@ -499,12 +510,6 @@ li:not(:last-child) {
     transition: all 0.3s ease;
   }
 
-.card .flipped {
-    -webkit-transform: rotateY( 180deg );
-    -moz-transform: rotateY( 180deg );
-    -o-transform: rotateY( 180deg );
-    transform: rotateY( 180deg );
-  }
 
 button {
     background-color:rgb(247, 237, 214);

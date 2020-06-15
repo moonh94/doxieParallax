@@ -28,10 +28,6 @@ $(document).on('click', 'a[href^="#"]', function (e) {
 });
 
 
-$('.card').click(function(){
-  $(this).toggleClass('flipped');
-});
-
 $(document).ready(function() {
   resize_all_parallax();
 });
@@ -40,6 +36,13 @@ $(window).on('resize', function(){
   resize_all_parallax();
 });
 
+$('.card').click(function(){
+  $(this).toggleClass('flipped');
+});
+
+$(".card.flipped").click(function() {
+  $(this).removeClass("flipped");
+});
 
 function navSearch() {
   $(".nav-item").on("click", function () {
