@@ -375,7 +375,6 @@ footer {
     }
 
 .card__side {
-        opacity: .99;
         transform-style: preserve-3d;
         -webkit-transform-style: preserve-3d;
         -moz-transform-style: preserve-3d;
@@ -396,7 +395,7 @@ footer {
     }
     
 .card__side--front {
-          background-color: rgb(250, 247, 239, .99); 
+          background-color: rgb(250, 247, 239); 
           backface-visibility: hidden;
           -webkit-backface-visibility: hidden;
         }
