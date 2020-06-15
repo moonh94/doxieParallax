@@ -384,6 +384,8 @@ footer {
       }
 
 .card__side {
+        backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
         height: 36rem;
         margin: 0;
         transition: all 1s ease;
@@ -398,7 +400,10 @@ footer {
         box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); 
     }
  
-    
+.card__side--front {
+    backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+}
 .card__side--back {
     margin: 0;
     padding: 0;
