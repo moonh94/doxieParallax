@@ -387,11 +387,13 @@ footer {
         overflow: hidden;
         box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); 
         backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
     }
     
 .card__side--front {
           background-color: rgb(250, 247, 239); 
           backface-visibility: hidden;
+          -webkit-backface-visibility: hidden;
         }
         
 /* .card__side--back {
@@ -411,6 +413,7 @@ footer {
         background-size: cover;
         background-repeat: no-repeat; 
         backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
          
          }
 .card__side--back-2 {
