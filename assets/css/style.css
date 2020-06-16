@@ -384,7 +384,6 @@ footer {
 
 .card__side {
     position: absolute;
-    height: 35rem;
     margin: 0;
     -webkit-transition: all 1s ease; 
     -moz-transition:   all 1s ease;
