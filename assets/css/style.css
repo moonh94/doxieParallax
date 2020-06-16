@@ -383,8 +383,14 @@ footer {
       }
 
 .card__side {
+    height: 36rem;
     position: absolute;
     margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
     -webkit-transition: all 1s ease; 
     -moz-transition:   all 1s ease;
     -o-transition: all 1s ease;
@@ -393,11 +399,6 @@ footer {
     -moz-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     backface-visibility: hidden;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
     }
  
 
@@ -504,13 +505,13 @@ li:not(:last-child) {
     }
 
 
-/* .animation {
+.animation {
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
-  } */
+  }
 
 
 button {
@@ -544,8 +545,9 @@ button:hover {
     -moz-transform: translateY(-3px);
     -o-transform: translateY(-3px);
     transform: translateY(-3px);
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
-    .button:hover::after {
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); 
+}
+.button:hover::after {
     -webkit-transform:  scaleX(1.4) scaleY(1.6);
     -moz-transform:  scaleX(1.4) scaleY(1.6);
     -o-transform:  scaleX(1.4) scaleY(1.6);
@@ -645,7 +647,7 @@ button:active, .button:focus {
     transform: translateY(-1px);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
 
 body{
         width: 100%;
@@ -663,7 +665,7 @@ body{
 
 .navbar {
     overflow: hidden;
-    height: 5rem;
+    height: 6rem;
     position: fixed;
     top:0;
     left: 0;
@@ -673,7 +675,7 @@ body{
 
 nav.black{
     background: rgba(186, 125, 74, 0.9);
-    height:4rem;
+    height:5rem;
     padding-top: 1rem;
   
   }
@@ -833,4 +835,96 @@ section {
 
 
 
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+body{
+     width: 100%;
+    overflow-x: hidden;
+    }
+
+.parallaxBody {
+    background-attachment: inherit;
+    width: 100%;
+    height: 50vh;
+    overflow-x: none;
+
+}
+
+.sidepanel {
+        display: none;
+    }
+
+.heading {
+        position: relative;
+        padding-top: 20%;
+    }
+    
+.headingMain {
+        font-size: 45px;
+        font-weight: 500;
+        letter-spacing: 16px;
+        width: 100%;
+    }
+    .headingSub {
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 5px;
+    }
+  
+  .section {
+      padding: 0;
+      margin: 0;
+      height: auto;
+  }
+
+.row {
+    padding: 0;
+    margin: 0;
+}
+ .card {
+     width: 100%;
+     padding: 0;
+     margin: 0;
+ }
+
+ .navbar {
+    overflow: hidden;
+    height: 6rem;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    
+}
+
+nav.black{
+    background: rgba(186, 125, 74, 0.9);
+    height:5rem;
+    padding-top: 1rem;
+  
+  }
+  
+.navbar #navbarSupportedContent {
+    display: none;
+  }
+  
+.navbar a {
+    color: white;
+    padding: 14px 8px;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    text-transform: uppercase;
+    transition: 1s;
+    text-shadow: 0 0 10px #000;
+  }
+
+.title {
+    font-size: 26px;
+}
+section {
+    font-size: 18px;
+}
 }
