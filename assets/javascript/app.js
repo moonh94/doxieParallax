@@ -40,9 +40,9 @@ $('.card').click(function(){
   $(this).toggleClass('flipped');
 });
 
-$(".card.flipped").click(function() {
-  $(this).removeClass("flipped");
-});
+// $(".card__side--front").click(function() {
+//   $(this).toggleClass("flipped");
+// });
 
 function navSearch() {
   $(".nav-item").on("click", function () {

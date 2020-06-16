@@ -365,56 +365,56 @@ footer {
         margin: 2rem 1rem;
         cursor: pointer;
         transition: 0.4s;
-            -webkit-transition: 0.4s;
-            -moz-transition:  0.4s;
-            -o-transition: 0.4s;
+        -webkit-transition: 0.4s;
+        -moz-transition:  0.4s;
+        -o-transition: 0.4s;
+        -webkit-transform-style: preserve-3d;
         transform-style: preserve-3d;
-            -webkit-transform-style: preserve-3d;
-            -moz-transform-style: preserve-3d;
-            -o-transform-style: preserve-3d;
-        /* backface-visibility: hidden;
-        -webkit-backface-visibility: hidden; */
+        
     }
 
 .card.flipped {
+    
         -webkit-transform: rotateY( 180deg );
         -moz-transform: rotateY( 180deg );
         -o-transform: rotateY( 180deg );
         transform: rotateY( 180deg );
+        
       }
 
 .card__side {
-        backface-visibility: hidden;
-        -webkit-backface-visibility: hidden;
-        height: 36rem;
-        margin: 0;
-        transition: all 1s ease;
-        -webkit-transition: all 1s ease; 
-        -moz-transition:   all 1s ease;
-        -o-transition: all 1s ease;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        overflow: hidden;
-        box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); 
+    position: absolute;
+    height: 35rem;
+    margin: 0;
+    -webkit-transition: all 1s ease; 
+    -moz-transition:   all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden;
     }
  
 .card__side--front {
-    backface-visibility: hidden;
-        -webkit-backface-visibility: hidden;
+    background-color: white;
+
 }
 .card__side--back {
-    margin: 0;
-    padding: 0;
-    height:35rem;
-        transform: rotateY(180deg);
-        -webkit-transform:rotateY(180deg);
-        -moz-transform: rotateY(180deg);
-        -o-transform: rotateY(180deg);
-        background-size: cover;
-        background-repeat: no-repeat; 
-        cursor: pointer;
+    height:36rem;
+    -webkit-transform:rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    cursor: pointer;
+    
 
     }
 .card__side--back-1 {
@@ -507,13 +507,13 @@ li:not(:last-child) {
     }
 
 
-.animation {
+/* .animation {
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
-  }
+  } */
 
 
 button {
