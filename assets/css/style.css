@@ -391,14 +391,14 @@ footer {
     -o-transition: all 1s ease;
     transition: all 1s ease;
     -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
     backface-visibility: hidden;
     top: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-    -webkit-backface-visibility: hidden; 
-    backface-visibility: hidden;
     }
  
 .card__side--front {
