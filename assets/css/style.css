@@ -401,10 +401,7 @@ footer {
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
     }
  
-.card__side--front {
-    background-color: white;
 
-}
 .card__side--back {
     height:36rem;
     -webkit-transform:rotateY(180deg);
