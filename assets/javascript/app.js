@@ -78,8 +78,6 @@ function resize_parallax(div_id,img_w,img_h) {
 function openNav() {
   document.getElementById("mySidepanel").style.width = "100%";
   document.getElementById("mySidepanel").style.display = "block";
-  document.getElementById("mySidePanel").style.height= "auto";
-  document.getElementById("mySidePanel").style.overflowY= "visible";
 }
 
 
