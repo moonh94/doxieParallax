@@ -925,11 +925,11 @@ nav.black{
   }
   
 .navbar a {
+    display: block;
     color: white;
     padding: 14px 8px;
     text-decoration: none;
     font-size: 16px;
-    display: block;
     text-transform: uppercase;
     transition: 1s;
     text-shadow: 0 0 10px #000;
@@ -944,6 +944,14 @@ section {
 .section {
     height: auto;
     margin:0;
+}
+
+.contactText {
+    font-size: 16px;
+}
+.contactTextHeading {
+    font-size: 18px
+    ;
 }
 .footer {
     display: block;
