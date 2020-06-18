@@ -390,6 +390,7 @@ footer {
     left: 0;
     width: 100%;
     overflow: hidden;
+    background-color: none;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
     -webkit-transition: all 1s ease; 
     -moz-transition:   all 1s ease;
@@ -404,6 +405,8 @@ footer {
 
 .card__side--back {
     height:36rem;
+    background-color: rgb(255, 255, 255, .1);
+
     -webkit-transform:rotateY(180deg);
     -moz-transform: rotateY(180deg);
     -o-transform: rotateY(180deg);
