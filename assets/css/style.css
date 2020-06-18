@@ -360,6 +360,7 @@ footer {
     margin:0;
 }
 .card {
+        background-color: transparent;
         position: relative;
         height: 36rem;
         margin: 2rem 1rem;
@@ -383,9 +384,10 @@ footer {
       }
 
 .card__side {
-    background-color: transparent;
+    background-color: rgb(255, 255, 255, 0.1);
     height: 36rem;
     position: absolute;
+    z-index: 1;
     margin: 0;
     top: 0;
     left: 0;
@@ -404,10 +406,10 @@ footer {
  
 
 .card__side--back {
+    position: relative;
+    z-index: 3;
     height:36rem;
-    background-color: rgb(255, 255, 255, .1);
-
-    -webkit-transform:rotateY(180deg);
+    background-color: rgb(255, 255, 255, .1);-webkit-transform:rotateY(180deg);
     -moz-transform: rotateY(180deg);
     -o-transform: rotateY(180deg);
     transform: rotateY(180deg);
