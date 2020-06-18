@@ -79,6 +79,7 @@ function openNav() {
   document.getElementById("mySidepanel").style.width = "100%";
   document.getElementById("mySidepanel").style.display = "block";
   document.getElementById("mySidePanel").style.height= "auto";
+  document.getElementById("mySidePanel").style.overflowY= "visible";
 }
 
 
