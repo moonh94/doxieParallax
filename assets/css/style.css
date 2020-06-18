@@ -711,6 +711,9 @@ nav.black{
     background-color:rgb(186, 124, 74);
     overflow-x: hidden; 
     padding-top:10px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
     transition: 0.5s;
   }
 
@@ -720,6 +723,9 @@ nav.black{
     font-size: 20px;
     color: white;
     display: block;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
   }
 
