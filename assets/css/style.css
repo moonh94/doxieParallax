@@ -383,6 +383,7 @@ footer {
       }
 
 .card__side {
+    background-color: transparent;
     height: 36rem;
     position: absolute;
     margin: 0;
@@ -390,7 +391,6 @@ footer {
     left: 0;
     width: 100%;
     overflow: hidden;
-    background-color: none;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
     -webkit-transition: all 1s ease; 
     -moz-transition:   all 1s ease;
