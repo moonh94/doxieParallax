@@ -705,7 +705,7 @@ nav.black{
 
 
 .sidepanel {
-    height: auto;
+    height: 500px;
     position: fixed; 
     z-index: 6;
     top: 0;
