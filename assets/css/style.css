@@ -707,7 +707,6 @@ nav.black{
 .sidepanel {
     height: auto;
     position: fixed; 
-    position:-webkit-sticky;
     z-index: 6;
     top: 0;
     left: 0;
