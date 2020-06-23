@@ -33,10 +33,12 @@ body {
     height: 5.5rem;
     padding: 1.5rem 6rem;
     box-sizing: border-box;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
     transition: .5s;
-    z-index: 5;
-    opacity: 1;
     background-color: #ba7c4a;
+    z-index: 5;
     
 }
 
@@ -669,9 +671,7 @@ body{
 }
 
 .navbar {
-    overflow: hidden;
     height: 6rem;
-    position: fixed;
     top:0;
     left: 0;
     width: 100%;
@@ -705,8 +705,8 @@ nav.black{
 
 
 .sidepanel {
-    height: 500px;
-    position: fixed; 
+    height: auto;
+    position:absolute;
     z-index: 6;
     top: 0;
     left: 0;
@@ -723,7 +723,7 @@ nav.black{
     text-decoration: none;
     font-size: 20px;
     color: white;
-    display: block;
+    display:block;
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
     -o-transition: 0.3s;
