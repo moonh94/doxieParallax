@@ -104,8 +104,8 @@ nav.black .nav-link:hover{
 .parallax1 {
     background: 
         linear-gradient(
-            rgba(122, 122, 122, 0.3), 
-            rgba(248, 245, 245, .3)), 
+            rgba(122, 122, 122, 0.4), 
+            rgba(248, 245, 245, .4)), 
         url("../img/groupBkyd4Edit5.jpg");
     height: 80vh;
     background-attachment: fixed;
@@ -784,13 +784,13 @@ nav.black{
   }
   .headingMain {
       font-size: 20px;
-      font-weight: 700;
-      letter-spacing: 14px;
+      font-weight: 600;
+      letter-spacing: 15px;
       width: 100%;
   }
   .headingSub {
       font-size: 12px;
-      font-weight: 400;
+      font-weight: 500;
       letter-spacing: 5px;
   }
 
@@ -820,6 +820,7 @@ section {
     text-align: center;
     font-size: 18px;
     font-weight: 500;
+    letter-spacing: .3rem;
 
 }
 
