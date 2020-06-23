@@ -711,8 +711,6 @@ nav.black{
     top: 0;
     left: 0;
     background-color:rgb(186, 124, 74);
-    overflow-x: hidden;
-    overflow-y: auto;
     padding-top:10px;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
