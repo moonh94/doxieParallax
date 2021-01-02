@@ -132,7 +132,10 @@ nav.black .nav-link:hover{
     background-image: url("../img/groupLR.jpg");
    
 }
-
+.parallax6 {
+    background-image: url("../img/honey5-1.jpg");
+   
+}
 
 .heading {
     position: relative;
@@ -280,6 +283,42 @@ nav.black .nav-link:hover{
     overflow: hidden;
 } */
 
+.pups {
+    display: block;
+}
+
+.stayTunedParagraph {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin: 50px 10px 50px 10px;
+    text-transform: capitalize;
+    font-style: italic;
+}
+.expecting {
+    margin: 1rem;
+}
+.expectingContent {
+    display: block;
+    text-align: center;
+    
+
+
+}
+.expectingPic1{
+    width: 400px;
+    height: auto;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+    margin-bottom: 5px;
+}
+.expectingPic2{
+    width: 400px;
+    height: auto;
+    box-shadow: 0 3rem 4rem rgba(0, 0, 0, 0.2);
+    margin-bottom: 5px;
+   
+}
 
 footer {
     display: block;
@@ -653,6 +692,10 @@ button:active, .button:focus {
     outline: none;
     transform: translateY(-1px);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
+
+.pups {
+    display:none;
+}
 
 @media only screen and (max-width: 767px) {
 
