@@ -243,9 +243,7 @@ nav.black .nav-link:hover{
 #aboutDoxies {
     font-size: 18px;
 }
-/* .listTitle {
-    font-weight: 700;
-} */
+
 .characteristicsList ul {
     padding-left: 50px;  
     list-style-position: outside;
@@ -277,11 +275,6 @@ nav.black .nav-link:hover{
 .info {
     padding-top: 0;
 }
-
-/* .d-block {
-    max-height: 500px;
-    overflow: hidden;
-} */
 
 .pups {
     display: block;
@@ -778,8 +771,7 @@ nav.black{
 .sidepanel a:hover {
     color: black;
   }
-  
-  /* Position and style the close button (top right corner) */
+
 .closebtn {
     position: relative;
     top: 40;
@@ -787,8 +779,7 @@ nav.black{
     font-weight: 500;
     margin-left: 250px;
   }
-  
-  /* Style the button that is used to open the sidepanel */
+
 .openbtn {
     display: block;
     font-size: 20px;
@@ -810,10 +801,6 @@ nav.black{
   .openbtn:active {
       color: white;
   }
-/* 
-  .active {
-    color: black;
-  } */
 
 .logoHeader {
     width: 4.3rem;
