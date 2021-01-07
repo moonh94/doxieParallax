@@ -8,22 +8,17 @@ $(window).on("scroll", function () {
 })
 
 $(document).on('click', 'a[href^="#"]', function (e) {
-  // target element id
   var id = $(this).attr('href');
 
-  // target element
   var $id = $(id);
   if ($id.length === 0) {
     return;
   }
 
-  // prevent standard hash navigation (avoid blinking in IE)
   e.preventDefault();
 
-  // top position relative to the document
   var pos = $id.offset().top -100;
 
-  // animated top scrolling
   $('body, html').animate({ scrollTop: pos }, 950);
 });
 
@@ -40,9 +35,6 @@ $('.card').click(function(){
   $(this).toggleClass('flipped');
 });
 
-// $(".card__side--front").click(function() {
-//   $(this).toggleClass("flipped");
-// });
 
 function navSearch() {
   $(".nav-item").on("click", function () {
@@ -57,6 +49,12 @@ function smallNavSearch() {
 
   });
 }
+function carousel () {
+  $('.carousel').carousel({
+    interval: 300
+  })
+};
+
 function resize_all_parallax() {
   var div_class = 'parallaxBody'; /* the ID of the div that you're resizing */
   var img_w = 1000; /* the width of your image, in pixels */
@@ -78,19 +76,11 @@ function resize_parallax(div_id,img_w,img_h) {
 function openNav() {
   document.getElementById("mySidepanel").style.width = "100%";
   document.getElementById("mySidepanel").style.display = "block";
-  // document.getElementById("mySidepanel").style.height = "auto";
-  // document.getElementById("mySidepanel").style.zIndex = "5";
 
 
 }
 
-
-/* Set the width of the sidebar to 0 (hide it) */
 function closeNav() {
   document.getElementById("mySidepanel").style.width = "0";
   document.getElementById("mySidepanel").style.display = "none";
 }
-
-$('.carousel').carousel({
-  interval: 300
-})
