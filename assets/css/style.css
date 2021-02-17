@@ -479,7 +479,13 @@ footer {
         background-image:url(../img/hope4.jpg);
     }
 
-    
+.card__side--back-8 {
+        background-image:url(../img/luna5-1.jpg);
+    }
+.card__side--back-9{
+        background-image:url(../img/shelby1-2.jpg);
+    }
+
 .card__picture {
         background-size: contain;
         height: 20rem;
@@ -492,35 +498,40 @@ footer {
           background-size: cover;
      }
 .card__picture--1 {
-          background-image: url(../img/donte2.jpg);
+    background-image: url(../img/donte2.jpg);
          
         }
 .card__picture--2{
-              background-image: url(../img/duncan4.jpg);
+    background-image: url(../img/duncan4.jpg);
            
           }
 .card__picture--3{
-              background-image: url(../img/beauBT1Edit.jpg);
+    background-image: url(../img/beauBT1Edit.jpg);
            
           }
 .card__picture--4{
-              background-image: url(../img/honey4.jpg);
+    background-image: url(../img/honey4.jpg);
            
           }
 .card__picture--5{
-              background-image: url(../img/bella4Edit.jpg);
+    background-image: url(../img/bella4Edit.jpg);
            
           }     
 .card__picture--6{
-              background-image: url(../img/pearl5Edit.jpg);
+    background-image: url(../img/pearl5Edit.jpg);
            
           }
 .card__picture--7{
-              background-image: url(../img/hope5.jpg);
+     background-image: url(../img/hope5.jpg);
            
           }
-    
-    
+.card__picture--8{
+    background-image: url(../img/luna3-1.jpg);
+}
+.card__picture--9{
+    background-image: url(../img/shelby7.jpg);
+}
+   
 .card__heading {
         font-size: 1.3rem;
         font-weight: 400rem;
